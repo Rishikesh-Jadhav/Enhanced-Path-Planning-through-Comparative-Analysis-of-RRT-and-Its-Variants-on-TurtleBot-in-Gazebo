@@ -61,11 +61,16 @@ $ python3 move.py
 Results:
 
 RRT Execution:
-https://youtu.be/I-2ZhwwAZuY
+[![Video Placeholder](https://img.youtube.com/vi/I-2ZhwwAZuY/0.jpg)](https://www.youtube.com/watch?v=I-2ZhwwAZuY)
+
+
 RRT Connect Execution:
-https://youtu.be/5o3HtRhUp2k
+[![Video Placeholder](https://img.youtube.com/vi/5o3HtRhUp2k/0.jpg)](https://www.youtube.com/watch?v=5o3HtRhUp2k)
+
+
 RRT Star Execution:
-https://youtu.be/Em3HYEddEJs
+[![Video Placeholder](https://img.youtube.com/vi/Em3HYEddEJs/0.jpg)](https://www.youtube.com/watch?v=Em3HYEddEJs)
+
 RRT Start Smart Execution:
 [![Video Placeholder](https://img.youtube.com/vi/HC70_QCKaj4/0.jpg)](https://www.youtube.com/watch?v=HC70_QCKaj4)
 
