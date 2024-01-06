@@ -81,3 +81,7 @@ This project focuses on optimizing path planning algorithms to achieve efficient
 
 ### RRT*-Smart Execution:
 [![RRT*-Smart Execution](https://img.youtube.com/vi/HC70_QCKaj4/0.jpg)](https://www.youtube.com/watch?v=HC70_QCKaj4)
+
+
+## References:
+For an additional implementation and insights, you can refer to [here](https://github.com/anikk94/enpm661_project5/tree/main/final_project).
