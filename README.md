@@ -1,83 +1,83 @@
 # Enhanced-Path-Planning-through-Comparative-Analysis-of-RRT-and-Its-Variants-on-TurtleBot-in-Gazebo
 
-## INSTRUCTIONS TO RUN
+This repository showcases enhanced path planning through a comparative analysis of RRT and its variants, including RRT, RRT*, RRT*-Smart, and RRT-Connect, implemented on a TurtleBot in the Gazebo simulation environment.
 
-Download/Clone the package into the workspace and build using catkin build or catkin_make.
-Source the workspace.
+## Overview
 
-## 2-D Path Planning Methods
+This project focuses on optimizing path planning algorithms to achieve efficient navigation for TurtleBot in both 2D and 3D environments. The implemented RRT variants are evaluated, and their performances are compared, providing valuable insights into their strengths and weaknesses.
 
-To run the below path planning algorithms, run the following from src folder the workspace:
+## Instructions to Run
 
-### RRT 
-```bash
-$ cd final_project/scripts/
-$ python3 rrt.py
-```
+1. **Setup:**
+   - Download or clone the repository.
+   - Build the workspace using `catkin build` or `catkin_make`.
+   - Source the workspace.
 
-### RRT*
-```bash
-$ cd final_project/scripts/
-$ python3 rrt_star.py
-```
+2. **Run 2-D Path Planning Algorithms:**
+   Navigate to the `final_project/scripts/` folder and execute the desired algorithm.
 
-### RRT*-Smart
-```bash
-$ cd final_project/scripts/
-$ python3 rrt_star_smart.py
-```
+   - RRT 
+     ```bash
+     $ cd final_project/scripts/
+     $ python3 rrt.py
+     ```
 
-### RRT-Connect
-```bash
-$ cd final_project/scripts/
-$ python3 rrt_connect.py
-```
+   - RRT*
+     ```bash
+     $ cd final_project/scripts/
+     $ python3 rrt_star.py
+     ```
 
+   - RRT*-Smart
+     ```bash
+     $ cd final_project/scripts/
+     $ python3 rrt_star_smart.py
+     ```
 
-## Gazebo+Rviz Simulation
-This is using Navigation stack so is technically not correct:
-However depending on the algorithm to run uncomment the lines in the move.py script 
-For RRT star, RRT star smart uncomment line 78 and comment line 79 for RRT connect and RRT do visa versa.
+   - RRT-Connect
+     ```bash
+     $ cd final_project/scripts/
+     $ python3 rrt_connect.py
+     ```
 
-To run the simulation:
+3. **Run Gazebo + Rviz Simulation:**
+   - Uncomment relevant lines in the `move.py` script based on the algorithm choice.
+   - Run the simulation:
 
-```bash
-$ roslaunch final_project world.launch
-```
+     ```bash
+     $ roslaunch final_project world.launch
+     ```
 
-In another terminal run,
-```bash
-$  roslaunch final_project navigation.launch 
-```
+   - In another terminal, launch the navigation stack:
 
-Make the map align with the world in rviz by moving the robot using 2D Pose Estimate.
+     ```bash
+     $ roslaunch final_project navigation.launch 
+     ```
 
-Open a new terminal and run,
-```bash
-$ cd final_project/scripts/
-$ python3 move.py
-```
+   - Adjust the map alignment in RViz using 2D Pose Estimate.
+   - Open a new terminal and execute:
 
-Results:
+     ```bash
+     $ cd final_project/scripts/
+     $ python3 move.py
+     ```
 
-RRT Execution:
-[![Video Placeholder](https://img.youtube.com/vi/I-2ZhwwAZuY/0.jpg)](https://www.youtube.com/watch?v=I-2ZhwwAZuY)
+## 2D Simulaton Results:
 
+![2D Results 1](https://github.com/nishantpandey4/RRT-and-its-types/assets/127569735/506f9a5f-d13f-40cb-93d5-c32b0de7e5b4)
 
-RRT Connect Execution:
-[![Video Placeholder](https://img.youtube.com/vi/5o3HtRhUp2k/0.jpg)](https://www.youtube.com/watch?v=5o3HtRhUp2k)
+![2D Results 2](https://github.com/nishantpandey4/RRT-and-its-types/assets/127569735/da973bf0-01c8-4e20-b95e-d2af4d6f8b91)
 
+## 3D Simulation Results in Gazebo on TurtleBot
 
-RRT Star Execution:
-[![Video Placeholder](https://img.youtube.com/vi/Em3HYEddEJs/0.jpg)](https://www.youtube.com/watch?v=Em3HYEddEJs)
+### RRT Execution:
+[![RRT Execution](https://img.youtube.com/vi/I-2ZhwwAZuY/0.jpg)](https://www.youtube.com/watch?v=I-2ZhwwAZuY)
 
-RRT Start Smart Execution:
-[![Video Placeholder](https://img.youtube.com/vi/HC70_QCKaj4/0.jpg)](https://www.youtube.com/watch?v=HC70_QCKaj4)
+### RRT-Connect Execution:
+[![RRT-Connect Execution](https://img.youtube.com/vi/5o3HtRhUp2k/0.jpg)](https://www.youtube.com/watch?v=5o3HtRhUp2k)
 
-2D - Results:
+### RRT* Execution:
+[![RRT* Execution](https://img.youtube.com/vi/Em3HYEddEJs/0.jpg)](https://www.youtube.com/watch?v=Em3HYEddEJs)
 
-![Screenshot (34)](https://github.com/nishantpandey4/RRT-and-its-types/assets/127569735/506f9a5f-d13f-40cb-93d5-c32b0de7e5b4)
-
-
-![Screenshot (35)](https://github.com/nishantpandey4/RRT-and-its-types/assets/127569735/da973bf0-01c8-4e20-b95e-d2af4d6f8b91)
-
+### RRT*-Smart Execution:
+[![RRT*-Smart Execution](https://img.youtube.com/vi/HC70_QCKaj4/0.jpg)](https://www.youtube.com/watch?v=HC70_QCKaj4)
