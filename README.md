@@ -57,7 +57,6 @@ Open a new terminal and run,
 $ cd final_project/scripts/
 $ python3 move.py
 ```
-Reference: https://github.com/anikk94/enpm661_project5/tree/main/final_project 
 
 Results:
 
