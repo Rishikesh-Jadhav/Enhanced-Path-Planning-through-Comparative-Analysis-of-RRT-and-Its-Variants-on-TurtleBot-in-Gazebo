@@ -64,12 +64,12 @@ This project focuses on optimizing path planning algorithms to achieve efficient
 
 ## 2D Simulaton Results:
 
-![2D Results 1](https://github.com/nishantpandey4/RRT-and-its-types/assets/127569735/506f9a5f-d13f-40cb-93d5-c32b0de7e5b4)
+  ![2D Results 1](https://github.com/nishantpandey4/RRT-and-its-types/assets/127569735/506f9a5f-d13f-40cb-93d5-c32b0de7e5b4)
 
-![2D Results 2](https://github.com/nishantpandey4/RRT-and-its-types/assets/127569735/da973bf0-01c8-4e20-b95e-d2af4d6f8b91)
+  ![2D Results 2](https://github.com/nishantpandey4/RRT-and-its-types/assets/127569735/da973bf0-01c8-4e20-b95e-d2af4d6f8b91)
 
-## 3D Simulation Results in Gazebo on TurtleBot
 
+## 3D Simulation Results in Gazebo on TurtleBot (Youtube Video links below)
 ### RRT Execution:
 [![RRT Execution](https://img.youtube.com/vi/I-2ZhwwAZuY/0.jpg)](https://www.youtube.com/watch?v=I-2ZhwwAZuY)
 
@@ -84,4 +84,4 @@ This project focuses on optimizing path planning algorithms to achieve efficient
 
 
 ## References:
-For an additional implementation and insights, you can refer to [here](https://github.com/anikk94/enpm661_project5/tree/main/final_project).
+For an additional implementation and insights, you can refer [here](https://github.com/anikk94/enpm661_project5/tree/main/final_project).
