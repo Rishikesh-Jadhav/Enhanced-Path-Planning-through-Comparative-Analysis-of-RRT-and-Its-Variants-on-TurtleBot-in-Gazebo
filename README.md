@@ -62,7 +62,6 @@ Results:
 
 RRT Execution:
 
-https://github.com/nishantpandey4/RRT-and-its-types/assets/127569735/aad50207-63c9-48f4-a46e-9d0bd56772b5
 
 Drive link of all results: 
 
