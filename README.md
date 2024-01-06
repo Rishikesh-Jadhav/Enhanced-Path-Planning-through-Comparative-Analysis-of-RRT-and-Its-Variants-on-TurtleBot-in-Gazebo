@@ -9,7 +9,7 @@ Source the workspace.
 
 To run the below path planning algorithms, run the following from src folder the workspace:
 
-### RRT
+### RRT 
 ```bash
 $ cd final_project/scripts/
 $ python3 rrt.py
@@ -61,12 +61,13 @@ $ python3 move.py
 Results:
 
 RRT Execution:
-
-
-Drive link of all results: 
-
-
-https://drive.google.com/drive/folders/1iJ1UV4ABaA0cAIsR_7lLINq1CRS_0DOv?usp=sharing
+https://youtu.be/I-2ZhwwAZuY
+RRT Connect Execution:
+https://youtu.be/5o3HtRhUp2k
+RRT Star Execution:
+https://youtu.be/Em3HYEddEJs
+RRT Start Smart Execution:
+[![Video Placeholder](https://img.youtube.com/vi/HC70_QCKaj4/0.jpg)](https://www.youtube.com/watch?v=HC70_QCKaj4)
 
 2D - Results:
 
