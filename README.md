@@ -6,6 +6,26 @@ This repository showcases enhanced path planning through a comparative analysis 
 
 This project focuses on optimizing path planning algorithms to achieve efficient navigation for TurtleBot in both 2D and 3D environments. The implemented RRT variants are evaluated, and their performances are compared, providing valuable insights into their strengths and weaknesses.
 
+## 2D Simulaton Results:
+
+  ![2D Results 1](https://github.com/nishantpandey4/RRT-and-its-types/assets/127569735/506f9a5f-d13f-40cb-93d5-c32b0de7e5b4)
+
+  ![2D Results 2](https://github.com/nishantpandey4/RRT-and-its-types/assets/127569735/da973bf0-01c8-4e20-b95e-d2af4d6f8b91)
+
+
+## 3D Simulation Results in Gazebo on TurtleBot (Youtube Video links below)
+### RRT Execution:
+[![RRT Execution](https://img.youtube.com/vi/I-2ZhwwAZuY/0.jpg)](https://www.youtube.com/watch?v=I-2ZhwwAZuY)
+
+### RRT-Connect Execution:
+[![RRT-Connect Execution](https://img.youtube.com/vi/5o3HtRhUp2k/0.jpg)](https://www.youtube.com/watch?v=5o3HtRhUp2k)
+
+### RRT* Execution:
+[![RRT* Execution](https://img.youtube.com/vi/Em3HYEddEJs/0.jpg)](https://www.youtube.com/watch?v=Em3HYEddEJs)
+
+### RRT*-Smart Execution:
+[![RRT*-Smart Execution](https://img.youtube.com/vi/HC70_QCKaj4/0.jpg)](https://www.youtube.com/watch?v=HC70_QCKaj4)
+
 ## Instructions to Run
 
 1. **Setup:**
@@ -61,27 +81,6 @@ This project focuses on optimizing path planning algorithms to achieve efficient
      $ cd final_project/scripts/
      $ python3 move.py
      ```
-
-## 2D Simulaton Results:
-
-  ![2D Results 1](https://github.com/nishantpandey4/RRT-and-its-types/assets/127569735/506f9a5f-d13f-40cb-93d5-c32b0de7e5b4)
-
-  ![2D Results 2](https://github.com/nishantpandey4/RRT-and-its-types/assets/127569735/da973bf0-01c8-4e20-b95e-d2af4d6f8b91)
-
-
-## 3D Simulation Results in Gazebo on TurtleBot (Youtube Video links below)
-### RRT Execution:
-[![RRT Execution](https://img.youtube.com/vi/I-2ZhwwAZuY/0.jpg)](https://www.youtube.com/watch?v=I-2ZhwwAZuY)
-
-### RRT-Connect Execution:
-[![RRT-Connect Execution](https://img.youtube.com/vi/5o3HtRhUp2k/0.jpg)](https://www.youtube.com/watch?v=5o3HtRhUp2k)
-
-### RRT* Execution:
-[![RRT* Execution](https://img.youtube.com/vi/Em3HYEddEJs/0.jpg)](https://www.youtube.com/watch?v=Em3HYEddEJs)
-
-### RRT*-Smart Execution:
-[![RRT*-Smart Execution](https://img.youtube.com/vi/HC70_QCKaj4/0.jpg)](https://www.youtube.com/watch?v=HC70_QCKaj4)
-
 
 ## References:
 For an additional implementation and insights, you can refer [here](https://github.com/anikk94/enpm661_project5/tree/main/final_project).
